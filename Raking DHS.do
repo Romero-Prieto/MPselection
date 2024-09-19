@@ -17,7 +17,7 @@ save     "`pATh'RakingData.dta", replace                                     /*t
 
 foreach survey of local lISt {                                               /*Loop for data preparation*/
 	set        seed 1
-	local      A              = substr("`survey'",1,2)                       /*contry prefix*/
+	local      A              = substr("`survey'",1,2)                       /*country prefix*/
 	local      B              = substr("`survey'",3,2)                       /*survey code*/
 	use      "`pATh'IR/`A'IR`B'FL.DTA", clear                                /*opening of each individual recode, IR is the name of the folder*/
 	keep      `set' mm*_*                                                    /*preserving relevant variables for identification and for adult mortality estimation*/
