@@ -1,4 +1,4 @@
-ata Access: The data for this analysis was obtained from the Demographic and Health Surveys (DHS) program. The DHS data is publicly available and can be requested directly from the DHS website.
+Data Access: The data for this analysis was obtained from the Demographic and Health Surveys (DHS) program. The DHS data is publicly available and can be requested directly from the DHS website.
 Conditions for Access: To access the data, users must create an account, submit a data request, and specify the purpose of the research. Upon approval, datasets are made available for download in multiple formats (e.g., Stata, CSV). DHS data is subject to a license agreement, which includes restrictions on sharing and mandates appropriate citation of the data source.
 
 Number of Records: The number of records (observations) used in the analysis varies based on the datasets selected (e.g., individual or household datasets). The sample sizes for each country/survey are derived from the dhs_datasets and vary by the survey ID and year. In the mobile ownership analysis, the sample sizes are specific to the IR (individual recode) and PR (household recode) datasets.
